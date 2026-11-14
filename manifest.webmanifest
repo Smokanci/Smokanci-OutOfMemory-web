@@ -1,0 +1,9 @@
+{
+  "name": "OutOfMemory",
+  "short_name": "OutOfMemory",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#1F1F20",
+  "theme_color": "#1F1F20"
+}
