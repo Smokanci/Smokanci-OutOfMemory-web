@@ -7,9 +7,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="OutOfMemory">
+    <meta name="apple-mobile-web-app-title" content="OutofMemory">
     <link rel="manifest" href="manifest.webmanifest">
-    <title>OutOfMemory</title>
+    <title>OutofMemory</title>
     <style>
       html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #1F1F20 }
       #unity-container { position: fixed; inset: 0; background: #1F1F20 }
@@ -101,17 +101,19 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/18d7b6251005d16632c0100e92ae9ea2.loader.js";
+      var loaderUrl = buildUrl + "/157de76dcae08b4b9a7c29943797948e.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/a68597d1031b98d30c1e9688a999cb38.data.unityweb",
-        frameworkUrl: buildUrl + "/999aa81bf6617136b29fce458f8785ca.framework.js.unityweb",
-        codeUrl: buildUrl + "/f95464f95aa4b6e7d8cc535c907bf2a4.wasm.unityweb",
+        dataUrl: buildUrl + "/98e0daf763a6859eed4baed4081984d5.data.unityweb",
+        frameworkUrl: buildUrl + "/b9fb40a4ed2d075d400a5897d98c1d6e.framework.js.unityweb",
+        codeUrl: buildUrl + "/5f34e643e94fd86a152365464915b6e9.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Happy Figs",
-        productName: "OutOfMemory",
+        productName: "OutofMemory",
         productVersion: "0.0.1",
         showBanner: unityShowBanner,
+        // The game's saves are files under persistentDataPath, which reach the browser's IndexedDB only when synced.
+        autoSyncPersistentDataPath: true,
       };
 
       var script = document.createElement("script");

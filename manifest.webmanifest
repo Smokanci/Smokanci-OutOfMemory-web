@@ -1,6 +1,6 @@
 {
-  "name": "OutOfMemory",
-  "short_name": "OutOfMemory",
+  "name": "OutofMemory",
+  "short_name": "OutofMemory",
   "start_url": "index.html",
   "display": "fullscreen",
   "orientation": "landscape",
